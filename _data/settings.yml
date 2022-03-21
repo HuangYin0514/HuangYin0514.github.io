@@ -1,7 +1,7 @@
 #-------------------------------
 # General Site Settings
 
-title: Kross
+title: 北京远信国际
 logo: 
 author: themefisher
 description: this is meta description
@@ -11,10 +11,9 @@ address: 125/A, CA Commercial Area, California, USA
 copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
 
 menu:
-- {name: About, link: '/about'}
-- {name: Blog, link: '/blog'}
-- {name: Portfolio, link: '/portfolio'}
-- {name: Contact, link: '/contact'}
+- {name: 相关, link: '/about'}
+- {name: 项目, link: '/blog'}
+- {name: 简介, link: '/portfolio'}
 
 
 #-------------------------------
@@ -38,7 +37,7 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: 创意设计 <br> 北京远信国际 <br> 北京
+  hero-title: 创意设计 <br> 北京远信国际 <br> 一起向未来
 
 social:
 - {icon: "ti-facebook", link: "#"}
@@ -52,10 +51,10 @@ social:
 
 # About Section
 blurb:
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+    北京远信国际由黄金创建于2015年，凝聚了一批拥有前瞻性理念、国际化视野的活力团队。作为集室内设计、软装设计、环境设计等一体化的综合性专业设计公司，北京远信国际主要从事地产售楼处、样板间、会所、商业空间、办公空间、精品酒店等设计项目，为众多知名地产商提供至高水准的个性化定制服务。以过硬的专业能力和不懈的探索，积极面对未来与市场的全新考量，致力于当代新人居观念的启迪与更新，为设计提供更多可能。
 
 blurb-btn-link: '/about'
-blurb-btn-name: know more
+blurb-btn-name: 更多信息
 
 
 # About Page
@@ -104,7 +103,7 @@ skills:
 #-------------------------------
 # Exprerience Section
 
-experience-title: Experience
+experience-title: 明星团队保障全程
 experience:
 - {name: Junior UX Designer, icon: 'icon-1.png', date: 'Jan 2007 - Feb 2009', organization: 'WEBEX'}
 - {name: UX & UI Designer, icon: 'icon-2.png', date: 'Mar 2009 - Aug 2014', organization: 'AUGMEDIX'}
@@ -114,9 +113,9 @@ experience:
 #-------------------------------
 # Education Section
 
-education-title: Education
+education-title: 专注在行业近20年实践与积累
 education:
-- {name: Marters in UX Design, date: '2006', organization: 'Masassusets Institute of Technology'}
+- {name: 服务行业, date: '2006', organization: 'Masassusets Institute of Technology'}
 - {name: Honours in Fine Arts, date: '2004', organization: 'Harvard University'}
 - {name: Higher Secondary Certificat, date: '2000', organization: 'Cardiff School'}
 - {name: Secondary School Certificate, date: '1998', organization: 'Cardiff School'}
@@ -292,5 +291,5 @@ client-slider-items:
 #-------------------------------
 # Contact Section
 
-contact-title: Contact Info
+contact-title: Contact Info1111
 contact-email: steve.fruits@email.com
