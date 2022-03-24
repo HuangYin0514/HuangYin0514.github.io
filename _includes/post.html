@@ -1,12 +1,52 @@
 <div class="col-lg-4 col-sm-6 mb-4">
-  <article class="card shadow">
-    <img class="rounded card-img-top" src="{{ post.image | relative_url }}" alt="{{ post.title }}">
-    <div class="card-body">
-      <h4 class="card-title">
-        <a class="text-dark" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      </h4>
-      <p class="card-text">{% assign curlyend = '}' %}{{ post.excerpt | markdownify | strip_html | replace: "{% include JB/setup %", "" | replace: curlyend, "" | truncatewords: 30 }}</p>
-      <a href="{{ post.url | relative_url }}" class="btn btn-xs btn-primary">查看阅读</a>
-    </div>
-  </article>
+    <article class="card shadow">
+        <img alt="{{ post.title }}" class="rounded card-img-top" src="{{ post.image | relative_url }}">
+        <div class="card-body">
+            <h4 class="card-title">
+                <a class="text-dark" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            </h4>
+            <p class="card-text">{% assign curlyend = '}' %}{{ post.excerpt | markdownify | strip_html | replace: "{%
+                include JB/setup %", "" | replace: curlyend, "" | truncatewords: 30 }}</p>
+            <a class=" btn-xs btn-read" href="{{ post.url | relative_url }}">查看阅读</a>
+        </div>
+    </article>
 </div>
+
+
+<style>
+    /*.btn-primary {*/
+    /*    background: #41228e;*/
+    /*    color: #fff;*/
+    /*}*/
+
+    .card-body {
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        padding: 1.25rem;
+    }
+
+    p {
+        font-weight: 400;
+        color: #4c4c4c;
+        font-size: 15px;
+        line-height: 1.8;
+        font-family: "Microsoft Yahei";
+    }
+
+    .btn-read {
+        background: #ffffff;
+        color: #000000;
+        display: inline-block;
+        border: 2px solid #999999;
+        text-align: center;
+    }
+
+    a.btn-read:hover {
+        background-color: #999999;
+        border: 2px solid #999999;
+    }
+    a.btn-read:active {
+        background-color: #999999;
+        border: 2px solid #999999;
+    }
+</style>

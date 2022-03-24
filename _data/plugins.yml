@@ -1,8 +1,13 @@
 ################ CSS Plugins #####################
 css:
+  - "/assets/plugins/advantage/advange.css"
   - "/assets/plugins/bootstrap/bootstrap.min.css"
   - "/assets/plugins/themify-icons/themify-icons.css"
   - "/assets/plugins/slick/slick.css"
+#  - "/assets/plugins/bootstrap/bootstrap.min.css"
+
+
+
 
 
 ################ JS Plugins ######################

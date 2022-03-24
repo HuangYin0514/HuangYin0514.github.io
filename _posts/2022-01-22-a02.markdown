@@ -2,7 +2,7 @@
 layout: post
 title:  工业风健身房
 date:   2022-01-22
-image:  /assets/images/blog/post-2.jpg
+image:  /assets/images/news/post-2.jpg
 author: 黄金
 ---
 
